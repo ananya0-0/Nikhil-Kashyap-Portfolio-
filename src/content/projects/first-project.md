@@ -1,9 +1,8 @@
 ---
-title: Interstellar Launch
-description: A project exploring seamless onboarding experiences for space-tech partners.
-pubDate: 2026-01-10
-heroImage: ../../assets/blog-placeholder-about.png
-updatedDate: 2026-01-12
+title: Maya, an AI Companion
+description: An AI companion designed to remember you, understand you over time, and be honest with you instead of just agreeable. Comes with Halo, a hardware companion for your desk.
+pubDate: 2025-01-15
+tags: [AI, hardware, companion]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec justo vitae sapien condimentum feugiat non quis justo.
+Maya is an AI companion being built at AlterAI. Unlike traditional AI assistants that are purely agreeable, Maya is designed to remember you, understand you over time, and be honest with you. Maya comes with Halo, a hardware companion that gives it a real presence on your desk.

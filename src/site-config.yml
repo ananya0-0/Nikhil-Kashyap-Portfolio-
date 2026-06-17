@@ -1,19 +1,22 @@
 author:
-  name: Dasein
-  role: PhD in Philosophy
-  bio:  Known for contributions to phenomenology, hermeneutics, and existentialism.
-  location: Munich, Germany
+  name: Nikhil Kashyap
+  role: Founder & CEO @ AlterAI | AI x Hardware | Emergent Ventures
+  bio: "Self-taught builder from Bareilly. Left school after 10th grade to learn by building. Founder of AlterAI, building Maya — an AI companion designed to remember you, understand you over time, and be honest with you."
+  location: Bengaluru, Karnataka, India
 
 social:
   - id: "x"
     label: "X"
-    href: "#_"
+    href: "https://x.com/nikhilkashyap"
   - id: "github"
     label: "GitHub"
-    href: "https://github.com/roicort"
+    href: "https://github.com/nikhilkashyap"
   - id: "linkedin"
-    label: "Linkedin"
-    href: "#_"
+    label: "LinkedIn"
+    href: "https://linkedin.com/in/nikhilkashyap"
   - id: "email"
     label: "Email"
-    href: "mailto:"
+    href: "mailto:nikhil@alterai.com"
+  - id: "globe"
+    label: "Website"
+    href: "https://nikhilkashyap.com"
