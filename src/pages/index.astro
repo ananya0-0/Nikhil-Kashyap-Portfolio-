@@ -17,6 +17,7 @@ const site = await getSite();
 <PageLayout
 	title={site.author.name || 'Dasein'}
 >
+	<div class="reveal visible">
 	<Hero
 		title={site.author.name || 'Dasein'}
 		description={site.author.bio || 'Welcome to my personal website.'}
@@ -27,22 +28,27 @@ const site = await getSite();
 			{ label: 'About Me', href: '/about' },
 		]}
 	/>
+	</div>
 
-	<Social class="mt-8" />
+	<div class="reveal"><Social class="mt-8" /></div>
 
+	<div class="reveal">
 	<ProjectList
 		heading="Projects"
 		limit={4}
 		viewAllHref="/projects"
 	/>
+	</div>
 
+	<div class="reveal">
 	<PostList
 		heading="Blog"
 		limit={3}
 		viewAllHref="/blog"
 	/>
+	</div>
 
-	            <!-- Sections (from src/content/sections.yml) -->
+	<div class="reveal">
             {
                 cv.map((section) => {
                     if (section.data.items) {
@@ -56,5 +62,20 @@ const site = await getSite();
                     return null;
                 })
             }
-		
+	</div>
 </PageLayout>
+
+<script>
+	const observer = new IntersectionObserver(
+		(entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					entry.target.classList.add("visible");
+				}
+			});
+		},
+		{ threshold: 0.15 }
+	);
+
+	document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+</script>

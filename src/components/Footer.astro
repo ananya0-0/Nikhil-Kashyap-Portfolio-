@@ -1,21 +1,8 @@
 ---
 import { getSite } from '../utils/consts';
-import { getCollection } from 'astro:content';
-
-import { Icon } from 'astro-icon/components'
 
 const today = new Date();
 const site = await getSite();
-const social = site.social || [];
-const iconMap: Record<string, string> = {
-  x: 'tabler:brand-x',
-  twitter: 'tabler:brand-x',
-  github: 'tabler:brand-github',
-  linkedin: 'tabler:brand-linkedin',
-  email: 'tabler:mail',
-  globe: 'tabler:world',
-  mastodon: 'tabler:brand-mastodon',
-};
 ---
 
 <footer class="py-8">
